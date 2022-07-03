@@ -286,6 +286,8 @@ jobs:
           fingerprints: ["13:71:c9:b1:94:e3:e8:6c:45:03:5b:54:4d:e9:32:c8"]
       - attach_workspace:
           at: ~/
+      - restore_cache:
+          keys: [backend-deps]
       - run:
           name: Install dependencies
           command: |
