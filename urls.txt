@@ -1,0 +1,2 @@
+s3 bucket url : https://udapeople-932d0d2.s3.amazonaws.com/index.html
+Back end url : 18.212.74.247
